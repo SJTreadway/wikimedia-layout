@@ -9,13 +9,20 @@ HEADER
 #header {
 	width: 70%;
 	text-align: left;
-	margin: 0 auto;
+	margin: 0 auto 80px;
 }
 
 #header p {
 	font-family: sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
+}
+
+#header span {
+	display: block;
+	float: right;
+	font-size: 20px;
+	font-family: sans-serif;
 }
 
 .header {
@@ -41,31 +48,24 @@ a:hover {
 IMAGE CONTENT
 *****************************/
 .container {
-	display: inline-block;
-	margin: auto;
-	width: 80%;
-	padding-bottom: 20px;
-	padding-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0 auto 30px;
 }
 
-.row-1, .row-2, .row-3, .row-4 {
-	position: relative;
-	left: 220px;
-	margin-bottom: 50px;
+.item-1, .item-2, .item-3, .item-4, .item-5,
+.item-6, .item-7, .item-8, .item-9, .item-10,
+.item-11, .item-12, .item-13, .item-14, .item-15,
+.item-16 {
+	margin-left: 130px;
+
 }
 
-.row-1 img, .row-2 img, .row-3 img, .row-4 img {
-	margin-right: 125px;
-	width: 135px;
-	height: 135px;
+img {
+	width: 130px;
+	height: 150px;
 }
-
-
-
-
-
-
-
 
 
 
